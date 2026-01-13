@@ -30,6 +30,10 @@
         <layout>Practice__c-Practice Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Practice__c-Practice Layout</layout>
+        <recordType>Practice__c.Real</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Task-Task Layout</layout>
     </layoutAssignments>
     <loginHours n1:nil="true" />

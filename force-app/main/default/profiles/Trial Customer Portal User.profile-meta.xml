@@ -16,6 +16,11 @@
         <field>Opportunity.Location__c</field>
         <readable>false</readable>
     </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Practice__c.Practice_Time__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
     <layoutAssignments>
         <layout>Account-Account Layout</layout>
     </layoutAssignments>
@@ -27,6 +32,10 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Practice__c-Practice Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Practice__c-Practice Layout</layout>
+        <recordType>Practice__c.Real</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Task-Task Layout</layout>
