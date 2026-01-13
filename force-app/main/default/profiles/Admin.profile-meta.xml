@@ -28,9 +28,6 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Practice__c-Practice Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Practice__c-Practice Layout</layout>
         <recordType>Practice__c.Real</recordType>
     </layoutAssignments>
     <layoutAssignments>
