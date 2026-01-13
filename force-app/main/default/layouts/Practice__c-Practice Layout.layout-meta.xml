@@ -12,7 +12,7 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>Practice_Time__c</field>
+                <field>Practice_End_Time__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
