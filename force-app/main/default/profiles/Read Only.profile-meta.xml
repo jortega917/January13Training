@@ -12,6 +12,11 @@
         <field>Opportunity.Location__c</field>
         <readable>true</readable>
     </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Practice__c.Practice_Time__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
     <layoutAssignments>
         <layout>Account-Account Layout</layout>
     </layoutAssignments>
@@ -25,9 +30,18 @@
         <layout>Practice__c-Practice Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Practice__c-Practice Layout</layout>
+        <recordType>Practice__c.Real</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Task-Task Layout</layout>
     </layoutAssignments>
     <loginHours n1:nil="true" />
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Practice__c.Real</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
     <userLicense>Salesforce</userLicense>
     <userPermissions>
         <enabled>true</enabled>
